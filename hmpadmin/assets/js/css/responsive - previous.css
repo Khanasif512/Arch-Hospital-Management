@@ -1,0 +1,675 @@
+/* Custom Responsive Stylesheet */
+
+/*------------  Screen 320px to 480px ------------*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+/* Index Page Starts */	
+	/*Topbar*/
+	#topbar .nav.nav-pills.pull-right {
+		float: left !important;
+	}
+	/*Logo*/
+	.navbar-brand > img {
+		height: 36px;
+		margin-top: 7px;
+	}	
+	.affix .navbar-brand > img {
+		height: 36px;
+		width: auto;
+	}
+	/*Collapse Menu Icon*/
+	.navbar-default .navbar-toggle {
+		background-color: #ee7433;
+		border-color: #ee7433;
+	}
+	.navbar-default .navbar-toggle .icon-bar {
+		background-color: #fff;
+	}
+	.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+		background-color: transparent;
+	}
+	.navbar-default .navbar-toggle:hover .icon-bar , .navbar-default .navbar-toggle:focus .icon-bar{
+		background-color: #ee7433;
+	}
+	/*Menu*/
+	.navbar-nav {
+		margin: 0 -15px;
+	}
+	.navbar-nav > li > a {
+		padding: 10px 15px;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover{
+		color: #ee7433;
+		background-color: #f5f5f5;
+	}
+	.affix .navbar-nav > li > a {
+		padding: 10px 15px;
+	}
+	/*Slider*/
+	#slider .carousel-caption > p, .carousel-caption ul li {
+		font-size: 10px;
+		margin: 0 0 3px 12px;
+		padding: 0 5px;
+		width: 70%;
+	}
+	#slider .carousel-caption > h2 {
+		font-size: 20px;
+		margin-bottom: 15px;
+		margin-top: -100%;
+	}
+	#slider .carousel-caption.slide3 > p {
+		font-size: 10px;
+		width: 80%;
+	}
+	#slider .carousel-inner > .item > a > img, .carousel-inner > .item > img {
+		height: 300px;
+		max-width: 100%;
+	}
+	#slider .carousel-indicators {
+		margin-bottom: 15%;
+	}
+	/*Our Services*/
+	#services .title {
+		margin-bottom: 25px;
+		margin-top: -60px;
+	}
+	#services .underline::before, #software .underline::before {
+		left: 30%;
+		width: 40%;
+	}
+	#services .underline::after, #software .underline::after {
+		left: 40%;
+		width: 20%;
+		top: 98%;
+	}
+	#services .services-item-wrapper, #software .software-item-wrapper {
+		margin-bottom: 20px;
+	}
+	/*Our Software*/
+	.software-item-wrapper > p {
+		overflow: hidden;
+	}
+	/*Our Technology*/
+	#technology .underline::before {
+		left: 30%;
+		width: 40%;
+		top: 92%;
+	}
+	#technology .underline::after {
+		left: 40%;
+		top: 91%;
+		width: 20%;
+	}
+	.owl-wrapper .item > img {
+		height: 60px;
+		width: 60px;
+		margin-left: 10%;
+	}
+/* Index Page Ends */		
+	/* Page Wrapper Starts */		
+	#page_wrapper {
+		padding: 20px 0;
+	}
+	#page_wrapper .page_title h2 {
+		font-size: 20px;
+	}
+	#page_wrapper .page_title::before {
+		left: 25%;
+		top: 90%;
+		width: 50%;
+	}
+	#page_wrapper .pull-right {
+		clear: both;
+		float: left !important;
+		margin-top: 10px;
+		padding: 0;
+	}
+	
+/* EMS Page Starts */	
+	#software-intro {
+		padding: 25px 0 40px;
+	}
+		#software-intro .intro .underline::before {
+			left: 35%;
+			top: 100%;
+			width: 27%;
+		}
+		#software-intro .intro .underline::after {
+			left: 28%;
+			top: 103%;
+			width: 42%;
+		}
+	#why-our-software .our-software-wrapper h4, #integrated-ems .integrated-ems-wrapper h4 {
+		line-height: 1.5em;
+		font-size: 17px;
+	}
+		#why-our-software .our-software-wrapper .underline::before {
+			left: 29%;
+			width: 40%;
+		}
+		#why-our-software .our-software-wrapper .underline::after {
+			left: 23%;
+			width: 52%;
+		}
+	#how-educare-works .our-software-wrapper h2{
+		font-size: 27px;
+	}	
+	#how-educare-works .our-software-wrapper .underline::before {
+		left: 30%;
+		width: 37%;
+	}
+	#how-educare-works .our-software-wrapper .underline::after {
+		left: 23%;
+		width: 51%;
+		top: 102%;
+	}
+	#integrated-ems .integrated-ems-wrapper .underline::before {
+		left: 35%;
+		top: 105%;
+		width: 25%;
+	}
+	#integrated-ems .integrated-ems-wrapper .underline::after {
+		left: 30%;
+		top: 107%;
+		width: 35%;
+	}
+	#ems-modules .ems-modules ul li {
+		line-height: 2em;
+	}
+	#ems-modules .ems-modules .underline::before {
+		left: 35%;
+		width: 32%;
+	}
+	#ems-modules .ems-modules .underline::after {
+		left: 29%;
+		width: 43%;
+	}
+	#admin-features .features-wrapper .underline::before {
+		left: 32%;
+		width: 33%;
+	}
+	#admin-features .features-wrapper .underline::after {
+		left: 28%;
+		width: 41%;
+		top: 102%;
+	}
+	.accounts-wrapper .underline::before {
+		left: 40%;
+		width: 22%;
+	}
+	.accounts-wrapper .underline::after {
+		left: 34%;
+		width: 33%;
+	}
+	#other-features .other-features-wrapper .underline::before {
+		left: 33%;
+		width: 35%;
+	}
+	#other-features .other-features-wrapper .underline::after {
+		left: 27%;
+		width: 48%;
+		top: 103%;
+	}
+/* HMS Page Starts */	
+	#hms-intro .intro h2 {
+		font-size: 24px;
+	}
+	#hms-intro .intro .underline::before {
+		left: 30%;
+		width: 32%;
+	}
+	#hms-intro .intro .underline::after {
+		left: 25%;
+		width: 42%;
+	}
+	.modules-content > p {
+		clear: both;
+	}
+	#hms-modules .hms-modules-wrapper .underline::before {
+		left: 39%;
+		width: 27%;
+	}
+	#hms-modules .hms-modules-wrapper .underline::after {
+		left: 33%;
+		width: 39%;
+	}
+	#hms-features .hms-features-wrapper .underline::before {
+		left: 37%;
+		width: 28%;
+	}
+	#hms-features .hms-features-wrapper .underline::after {
+		left: 31%;
+		width: 40%;
+	}
+	.hms-modules-wrapper .img-responsive .img-thumbnail {
+		margin-bottom: 15px;
+		margin-right: 10px;
+		max-width: 25%;
+	}
+	.patient-record-mg .text-center, .ipd .text-center, .opd .text-center, .patient-appoinment .text-center{
+		text-align: left;
+	}
+	.patient-record-mg img, .ipd img {
+		float: left;
+		margin-right: 5px;
+		max-width: 30%;
+	}
+	.patient-appoinment img, .opd img {
+		float: left;
+		margin-right: 5px;
+		max-width: 30%;
+	}
+	.room-ward h3, .laboratory h3, .pharmacy h3 {
+		font-size: 22px;
+	}
+/*IMS Page Starts*/
+.ims-icon i {
+    float: none;
+    margin-bottom: 0px;
+}	
+.ims-modules-wrapper .col-md-4 {
+    text-align: center;
+}
+.why-ims-wrapper img {
+    height: auto;
+    width: 100%;
+}	
+/* Static Website Page Starts */
+	#static-website .price-plans, #dynamic-website .price-plans {
+		margin-bottom: 20px;
+	}	
+/*IP CCTV Solution Page Starts*/	
+	#cctv-work-process .timeline-panel img {
+		margin-bottom: 10px;
+	}
+	#cctv-work-process .timeline .timeline-panel .img-responsive .pull-right {
+		float: none !important;
+	}
+	#cctv-work-process .timeline .timeline-panel img {
+		height: auto;
+		max-width: 100%;
+	}
+/* Contact Us Starts */	
+	#contact-us .get-touch {
+		margin-top: 50px;
+	}
+/* Other Sister Concerns Page Starts */	
+	/* Our Sister Concerns Starts */
+	.sister-concerns-wrapper .title, #our-clients .title{
+		font-size: 29px;
+	}
+	.sister-concerns-wrapper .underline::before {
+		left: 33%;
+		top: 90%;
+		width: 30%;
+	}
+	.sister-concerns-wrapper .underline::after {
+		left: 27%;
+		top: 94%;
+		width: 42%;
+	}
+	/*Our Achievements*/
+	#our-achievement .owl-wrapper .item > img {
+		width: 100px;
+		height: 100px;
+		margin-left: 3%;
+	}
+	#our-achievements .title {
+		font-size: 32px;
+	}
+	#our-achievements .underline::before {
+		width: 33%;
+		left: 32%;
+		top: 91%;
+	}
+	#our-achievements .underline::after {
+		width: 22%;
+		left: 37%;
+		top: 95%;
+	}
+	/* Our Clients Starts */
+	#our-clients .underline::before {
+		left: 34%;
+		width: 35%;
+	}
+	#our-clients .underline::after {
+		left: 41%;
+		width: 21%;
+		top: 81%;
+	}
+	#our-client .owl-wrapper .item > img {
+		width: 90%;
+		height: 70px;
+		margin-left: 5%;
+	}
+	/*Our Client List Starts*/
+	#our-client-list li {
+		display: inline-block;
+		margin-bottom: 0px;
+		font-size: 10px;
+		padding: 5px 10px;
+	}
+	#our-client-list .single-content img {
+		width: 125px;
+		height: 125px;
+		padding: 10px;
+	}
+	/*Our Client List Ends*/
+	
+}	
+
+/*-------------   Screen 768px to 980px --------------------*/
+
+@media (min-width: 768px) and (max-width: 980px) {
+/* Index Page Starts */		
+	/*Logo*/
+	.navbar-brand > img {
+		height: 40px;
+		margin-top: 5px;
+		width: 160px;
+	}
+	/*Collapse Menu Icon*/
+	.navbar-default .navbar-toggle {
+		background-color: #ee7433;
+		border-color: #ee7433;
+	}
+	.navbar-default .navbar-toggle .icon-bar {
+		background-color: #fff;
+	}
+	.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+		background-color: transparent;
+	}
+	.navbar-default .navbar-toggle:hover .icon-bar , .navbar-default .navbar-toggle:focus .icon-bar{
+		background-color: #ee7433;
+	}
+	/*Menu*/
+	.navbar-nav > li > a {
+		padding: 20px 15px;
+	}
+	/* Slider Starts */
+	#slider .carousel-inner > .item > a > img, .carousel-inner > .item > img {
+		height: 400px;
+	}
+	#slider .carousel-caption > p, .carousel-caption ul li {
+		font-size: 16px;
+		width: 55%;
+	}
+	#slider .carousel-caption.slide3 > p {
+		font-size: 12px;
+		width: 45%;
+	}
+	/* Services Starts */
+	#services .services-item-wrapper h2 {
+		font-size: 29px;
+	}
+	#services .services-item-wrapper {
+		margin-bottom: 25px;
+	}
+	#services .services-item-wrapper ul li a {
+		font-size: 13px;
+	}
+	#services .underline::before, #software .underline::before, #technology .underline::before {
+		left: 44%;
+		width: 14%;
+	}
+	#services .underline::after, #software .underline::after, #technology .underline::after {
+		left: 41%;
+		width: 20%;
+	}
+	/* Software Starts */
+	#software .software-item-wrapper {
+		font-size: 13px;
+		margin-bottom: 20px;
+		padding: 10px;
+	}
+	#software .software-item-wrapper > p {
+		overflow: hidden;
+	}
+	/* Technology Stars */
+	.owl-wrapper .item > img {
+		margin-left: 15%;
+	}
+/* Index Page Ends */		
+/* EMS Page Starts */	
+	#software-intro .intro .underline::before {
+		left: 40%;
+		width: 19%;
+	}
+	#software-intro .intro .underline::after {
+		left: 36%;
+		width: 27%;
+	}
+	#why-our-software .our-software-wrapper .underline::before, #how-educare-works  .our-software-wrapper .underline::before {
+		left: 43%;
+		width: 14%;
+	}
+	#why-our-software .our-software-wrapper .underline::after, #how-educare-works  .our-software-wrapper .underline::after {
+		left: 40%;
+		width: 20%;
+	}
+	#integrated-ems .integrated-ems-wrapper h4 {
+		line-height: 1.5em;
+		margin: 0;
+	}
+	#ems-modules .ems-modules ul li {
+		line-height: 2em;
+	}
+	.ems-modules .img-thumbnail {
+		margin-left: 30%;
+	}
+	#admin-features .features-wrapper .col-md-6:nth-child(2) h2.underline::before, #admin-features .features-wrapper .col-md-6:nth-child(3) h2.underline::before {
+		left: 45%;
+		width: 14%;
+	}
+	#admin-features .features-wrapper .col-md-6:nth-child(2) h2.underline::after, #admin-features .features-wrapper .col-md-6:nth-child(3) h2.underline::after {
+		left: 42%;
+		top: 100.5%;
+		width: 20%;
+	}
+	#other-features .other-features-wrapper .underline::before {
+		left: 38%;
+		width: 22%;
+	}
+	#other-features .other-features-wrapper .underline::after {
+		left: 34%;
+		top: 103%;
+		width: 30%;
+	}
+/* EMS Page Ends */		
+/* HMS Page Starts */		
+	#hms-intro .intro .underline::before {
+		left: 42%;
+		width: 17%;
+	}
+	#hms-intro .intro .underline::after {
+		left: 39%;
+		width: 23%;
+	}
+	#hms-modules .hms-modules-wrapper .underline::after {
+		left: 42%;
+		width: 17%;
+	}
+	#hms-features .hms-features-wrapper .underline::after {
+		left: 42%;
+		width: 17%;
+	}
+	.hms-modules-wrapper .img-responsive .img-thumbnail {
+		margin-bottom: 20px;
+		max-width: 15%;
+	}
+	.patient-appoinment img, .opd img, .patient-record-mg img, .ipd img, .room-ward img, .laboratory img, .pharmacy img  {
+		max-width: 15%;
+	}
+	.room-ward img, .laboratory img, .pharmacy img {
+		float: none;
+	}
+	.room-ward .features-title , .laboratory .features-title, .pharmacy .features-title{
+		text-align: center;
+	}
+	.laboratory {
+		margin: 30px 0;
+	}
+/* IMS Page Starts */	
+	.why-ims-wrapper img {
+		height: auto;
+		width: 100%;
+	}
+/* Static Website Page Starts */
+	#static-website .price-plans, #dynamic-website .price-plans {
+		margin-bottom: 20px;
+	}
+/* IP CCTV Solution Page Starts */	
+	#cctv-work-process .timeline .timeline-heading {
+		clear: both;
+	}
+	#cctv-work-process .timeline .timeline-panel .pull-right {
+		float: none !important;
+	}
+	#cctv-work-process .timeline .timeline-panel img{
+		margin-bottom: 10px;
+	}
+	#cctv-work-process .timeline .timeline-panel img {
+		height: auto;
+		width: 100%;
+	}
+/* Attendance Solution Starts */	
+	#attendance-solution .img-thumbnail {
+		height: 200px;
+		margin-bottom: 10px;
+		margin-left: 5%;
+		width: 90%;
+	}
+/* Intercom Page Starts */	
+	#intercom .img-thumbnail {
+		height: 200px;
+		margin-left: 5%;
+		width: 90%;
+		margin-bottom: 10px;
+	}
+/* Other Sister Concerns Starts */	
+	/*Our Achievements*/
+	#our-achievement .owl-wrapper .item > img {
+		width: 180px;
+		height: 180px;
+		margin-left: 2%;
+	}
+	#our-achievements .underline:before {
+		top: 90%;
+		width: 24%;
+		left: 39%;
+	}
+	#our-achievements .underline:after {
+		top: 88%;
+	}
+	/*Our Clients*/
+	#our-client .owl-wrapper .item > img {
+		height: 75px;
+		margin-left: 10%;
+		width: 80%;
+	}
+	.sister-concerns-wrapper .underline::before {
+		left: 44%;
+		top: 90%;
+		width: 15%;
+	}
+	.sister-concerns-wrapper .underline::after {
+		left: 41%;
+		top: 94%;
+		width: 21%;
+	}
+	/*Our Client List Starts*/
+	#our-client-list li {
+		padding: 8px 8px;
+		font-size: 12px;
+	}
+	#our-client-list .single-content img {
+		width: 150px;
+		height: 150px;
+		padding: 15px;
+	}
+	/*Our Client List Ends*/
+	
+/*Accounts Page Starts*/	
+	/*Target Business Starts*/
+	.targetBusiness-item ul>li {
+		font-size: 15px;
+	}
+	/*Target Business Ends*/
+/*Accounts Page Ends*/
+}
+
+/*-------------   Screen 980px to 1200px --------------------*/
+@media (min-width: 980px) and (max-width: 1200px) {
+	/*Our Achievements*/
+	#our-achievement .owl-wrapper .item > img {
+		width: 220px;
+		height: 220px;
+		margin-left: 5%;
+	}
+}
+
+/*-------------   Screen 1024px to 1200px --------------------*/
+@media (min-width: 1024px) and (max-width: 1200px) {
+#our-client-list .single-content img {
+    width: 210px;
+    height: 210px;
+    padding: 10px;
+}
+
+}
+
+
+/*-------------   Screen Above 1400px --------------------*/
+
+@media (min-width: 1366px){
+	/*Accounts Page Starts*/
+		/*Core Accounts Starts*/
+		.coreAccounts-item ul>li {
+			padding: 0 4em;
+		}
+		/*Core Accounts Ends*/
+		/*Target Business Starts*/
+		.targetBusiness-item ul>li {
+			padding: 0 3.5em;
+		}
+		/*Target Business Ends*/
+	/*Accounts Page Ends*/
+}
+/*Bootstrap Navbar break point at small screen starts*/
+/*	
+@media (max-width: 991px) {
+	.navbar-header {
+	  float: none;
+	}
+	.navbar-left,.navbar-right {
+	  float: none !important;
+	}
+	.navbar-toggle {
+	  display: block;
+	}
+	.navbar-collapse {
+	  border-top: 1px solid transparent;
+	  box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+	}
+	.navbar-fixed-top {
+	  top: 0;
+	  border-width: 0 0 1px;
+	}
+	.navbar-collapse.collapse {
+	  display: none!important;
+	}
+	.navbar-nav {
+	  float: none!important;
+	  margin-top: 7.5px;
+	}
+	.navbar-nav>li {
+	  float: none;
+	}
+	.navbar-nav>li>a {
+	  padding-top: 10px;
+	  padding-bottom: 10px;
+	}
+	.collapse.in{
+	  display:block !important;
+	}
+}	*/
